@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    width: 6rem;
+}
+body{
+   /* background-color: #fdfbec;*/
+    overflow-x: hidden;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1000' height='500' preserveAspectRatio='none' viewBox='0 0 1000 500'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1332%26quot%3b)' fill='none'%3e%3ccircle r='24.535' cx='236.93' cy='391.42' fill='url(%26quot%3b%23SvgjsLinearGradient1333%26quot%3b)'%3e%3c/circle%3e%3ccircle r='36.69' cx='549.89' cy='122.55' fill='url(%26quot%3b%23SvgjsLinearGradient1334%26quot%3b)'%3e%3c/circle%3e%3ccircle r='22.335' cx='909.85' cy='403.58' fill='url(%26quot%3b%23SvgjsLinearGradient1335%26quot%3b)'%3e%3c/circle%3e%3ccircle r='46.42' cx='598.21' cy='10.24' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='49.495' cx='482.53' cy='308.16' fill='url(%26quot%3b%23SvgjsLinearGradient1336%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1332'%3e%3crect width='1000' height='500' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='187.86' y1='391.42' x2='286' y2='391.42' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1333'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='476.51' y1='122.55' x2='623.27' y2='122.55' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1334'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='865.1800000000001' y1='403.58' x2='954.5200000000001' y2='403.58' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1335'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='383.53999999999996' y1='308.16' x2='581.52' y2='308.16' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1336'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");}
+nav{
+    display: flex;
+    height: 8rem;
+    justify-content: space-around;
+    align-items: center;
+ 
+   background-color: rgb(194, 193, 193,0.1);
+   color:white;
+   position: absolute;
+   width: 100vw;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+   
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    gap: 4rem;
+}
+.login{
+    padding: 0.8rem 2rem;
+   background-color: #4472f6;
+    color: white;
+}
+.body{
+    background-image: url(img/calibf.jpg);
+    background-size: cover;
+
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    flex-direction: column;
+    background-color: hsl(215, 76%, 33%,0.9);
+}
+.body::before{
+  background-color: #144a96;
+}
+.body h1 ,.body p{
+    background-color: rgb(12, 12, 12,0.5);
+}
+.annoucement-caption{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.swiper {
+    width: 1000px;
+    height: 500px;
+  }
+  .swiper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .strand-caption{
+    text-align: center;
+    margin: 5rem;
+    
+  }
+  .strand-caption span{
+    color: #9333ea;
+  }
+  .strand{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+  }
+  .strandh1 {
+    color: #9333ea;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #141c3a;
+    width: 80vw;
+    margin: auto;
+    border-radius: 2rem;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M704.56-9.21a32.03 32.03 0 1 0-20.85 60.57z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M978.04 315.18L1007.96 315.18L1007.96 345.1L978.04 345.1z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M6.03 427.89 a49.2 49.2 0 1 0 98.4 0 a49.2 49.2 0 1 0 -98.4 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M51.26 512.55 a16.14 16.14 0 1 0 32.28 0 a16.14 16.14 0 1 0 -32.28 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M233.48 28.76 a26.71 26.71 0 1 0 53.42 0 a26.71 26.71 0 1 0 -53.42 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M129.03 419.84L166.73 419.84L166.73 428.9L129.03 428.9z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M845.79 37.01 a52.49 52.49 0 1 0 104.98 0 a52.49 52.49 0 1 0 -104.98 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M353.51 251.64L359.2 251.64L359.2 274.79L353.51 274.79z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M213.54 161.27L223.8 161.27L223.8 171.53L213.54 171.53z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M552.5 490.39L584.06 490.39L584.06 521.95L552.5 521.95z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M421.28 72.85 a27.65 27.65 0 1 0 55.3 0 a27.65 27.65 0 1 0 -55.3 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M63.58 222.34L103.11 222.34L103.11 278.23L63.58 278.23z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M333.87 379.31L389.09 379.31L389.09 434.53L333.87 434.53z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M891.63 417.58a15.54 15.54 0 1 0-31.06 1.32z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M946.67 551.54a5.68 5.68 0 1 0 4.72 10.34z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M117.1 510.26 a32.33 32.33 0 1 0 64.66 0 a32.33 32.33 0 1 0 -64.66 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1331.78 93.31L1355.58 93.31L1355.58 145.38L1331.78 145.38z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M987.28 357.24 a9.74 9.74 0 1 0 19.48 0 a9.74 9.74 0 1 0 -19.48 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M976.72 403.45a49.84 49.84 0 1 0-27.33-95.86z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M48.53 346.24a22.42 22.42 0 1 0 13.33 42.82z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M104.42 182.19L115.38 182.19L115.38 193.15L104.42 193.15z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M551.57 189.04L558.48 189.04L558.48 215.96L551.57 215.96z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M656.98 88.93 a54.37 54.37 0 1 0 108.74 0 a54.37 54.37 0 1 0 -108.74 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M203.62 450.55L208.96 450.55L208.96 483.81L203.62 483.81z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M283.59 136.5 a1.13 1.13 0 1 0 2.26 0 a1.13 1.13 0 1 0 -2.26 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1248.65 398.79L1255.66 398.79L1255.66 453.76L1248.65 453.76z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M939.12 362.58L955.05 362.58L955.05 407.8L939.12 407.8z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M456.03 119.62L462.15 119.62L462.15 125.74L456.03 125.74z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1381.22 266.63L1385.3 266.63L1385.3 270.71L1381.22 270.71z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1303.67 387.14L1315.57 387.14L1315.57 399.04L1303.67 399.04z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1393.88 16.89a5.86 5.86 0 1 0 11.38-2.82z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M32.28 476.39 a49.56 49.56 0 1 0 99.12 0 a49.56 49.56 0 1 0 -99.12 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1362.89 413.92a29.44 29.44 0 1 0 55.47-19.74z' stroke='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");  }
+  .contactinfo{
+    background-color: #0b65c6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    gap: 1rem;
+    width: 80%;
+    margin: auto auto;
+    margin-top: 5rem;
+
+
+
+  }
+  .contact1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .contact1 a{
+    color: white;
+  }
+  .contact1 i{
+    color: white;
+    margin-right: 15px;
+    font-size: 2rem;
+   
+  }

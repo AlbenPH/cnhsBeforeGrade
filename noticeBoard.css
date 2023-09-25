@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #d2deeb;
+}
+.logo img{
+    width: 7rem;
+}
+nav h1{
+    background: #25CC0F;
+    background: linear-gradient(to bottom right, #25CC0F 0%, #45ECFF 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 8rem;
+    border-bottom: 5px solid black;
+    align-items: center;
+    background-color: #111542;
+    color: white;
+}
+.refresh a{
+    color: white;
+}
+.container{
+    padding-top: 1rem;
+    margin: auto;
+    width: 70%;
+    min-height: 100vh;
+    background-color: white;
+}
+.author-info img{
+    width: 2.5rem;
+}
+.author-info {
+    margin-top: 2.5rem;
+    display: flex;
+    border-top: 1px solid #01fbc0;
+    
+    
+    
+}
+.info{
+    margin-left: 10px;
+}
+.author-name{
+    font-weight: bold;
+    font-size: 1.2rem !important;
+}
+.info p {
+    font-size: 0.8rem;
+}
+
+.post{
+    margin: 0 2rem;
+}
+.post-content {
+    margin-top: 1rem;
+    line-height: 27px;
+    font-family: 'Lato', sans-serif;
+ 
+}
+.post-content p {
+    color: black;
+}
+article {
+    color: black;
+}
+.title{
+    margin: 1.5rem 1rem;
+}
